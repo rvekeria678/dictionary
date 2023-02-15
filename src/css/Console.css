@@ -1,0 +1,49 @@
+.console {
+    background: rgb(76, 117, 131);
+    height: 350px;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.console--title {
+    margin: 0 0 40px 0;
+    color: white;
+    animation-name: pop-in;
+    animation-duration: 3s;
+}
+.console--form {
+    margin: 0 auto;
+    height: 35px;
+    width: 75%;
+    max-width: 600px;
+    padding: 0;
+    display: flex;
+}
+.console--input {
+    height: 89%;
+    width: 70%;
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-color: black;
+    background-color: white;
+    outline-style: none;
+}
+.console--button {
+    height: 100%;
+    width: 30%;
+    background-color: orange;
+    border-color: black;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    transition: 400ms;
+}
+.console--button:hover {
+    background-color: rgb(228, 148, 0);
+    transition: 400ms;
+}
+
+@keyframes pop-in {
+    from {opacity: 0}
+    to {opacity: 1}
+}
